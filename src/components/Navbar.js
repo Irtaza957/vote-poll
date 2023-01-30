@@ -116,12 +116,12 @@ function ResponsiveAppBar() {
             Vote Poll
           </Typography>
           {/* Main Menu */}
-          <Box sx={{ flexGrow: 0, marginRight: '2rem', display: { xs: 'none', md: 'flex' }}}>
+          <Box sx={{ flexGrow: 0, marginRight: '2rem', paddingLeft: '5rem', display: { xs: 'none', md: 'flex' }}}>
             {pages.map((page) => (
               <Button
                 key={page}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block', letterSpacing: '.2rem', }}
+                sx={{ my: 2, color: 'white', display: 'block', letterSpacing: '.2rem', paddingLeft: '2rem' }}
               >
                 {page}
               </Button>
