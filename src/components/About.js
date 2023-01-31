@@ -19,7 +19,7 @@ const About = () => {
                         Blockchain technology can be used in voting system to have a fair election and reduce injustice.
                         This platform offers an effective solution to secure the democratic rights of the people.
                     </p>
-                    <h3 style={{ fontSize: '22px' }}>Follow</h3>
+                    <h3 style={{ fontSize: '22px', marginTop: '1rem' }}>Follow</h3>
                     <div className={styles.icons}>
                         <FacebookIcon />
                         <span className={styles.icon1}>
