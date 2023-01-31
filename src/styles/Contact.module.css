@@ -10,10 +10,6 @@
     letter-spacing: 2px;
 }
 
-.box {
-    margin: auto 15rem;
-}
-
 .solid {
     border-top: 3px solid #1565C0;
     width: 6%;
@@ -21,10 +17,16 @@
     margin-bottom: 1rem;
 }
 
-@media screen and (max-width: 1024px) {
-    .box {
-        margin: auto;
-    }
+.from {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    display: flex;
+    justify-content: end;
 }
 
 @media screen and (max-width: 850px) {

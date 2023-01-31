@@ -1,7 +1,3 @@
-.body {
-  overflow: hidden;
-}
-
 .container {
   display: flex;
   justify-content: center;
@@ -21,7 +17,7 @@
 
 .description {
   font-size: 17px;
-  margin-top: -20px;
+  margin-top: 1rem;
   margin-bottom: 20px;
   letter-spacing: 2.5px;
   font-family: Georgia, 'Times New Roman', Times, serif;
