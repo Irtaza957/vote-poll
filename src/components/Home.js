@@ -10,21 +10,14 @@ const Home = () => {
             <div className={styles.container}>
                 <div>
                     <h1 className={styles.heading}> Welcome to
-                        <strong >VotePoll</strong>
-                        <style jsx>{`       
-                        strong {
-                            color: #1565C0;
-                            margin-left: 5px;
-                            border-bottom: 2px solid #1565C0;                                                      
-                        }
-                        `}</style>
+                        <strong className={styles.websiteName}>VotePoll</strong>                      
                     </h1>                    
                     <div className={styles.description}>
                         <p>An Online Voting System that will guarantee the transperancy and privacy rights of voters with blockchain technology.</p>
                     </div>
                     <div className={styles.button}>
-                        <Button variant="outlined" startIcon={<VideoIcon />} sx={{ mr: 1 }}> Learn To Vote</Button>
-                        <Button variant="contained" startIcon={<VoteIcon />}> Vote Now</Button>
+                        <Button variant="outlined" style={{borderColor: '#f15540', color: '#f15540'}} startIcon={<VideoIcon />} sx={{ mr: 1 }}> Learn To Vote</Button>
+                        <Button variant="contained" style={{backgroundColor: '#f15540', }} startIcon={<VoteIcon />}> Vote Now</Button>
                     </div>
                 </div>
                 <div className={styles.headerImg}>
