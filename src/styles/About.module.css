@@ -37,7 +37,8 @@
     font-size: 60x;
     margin-top: 15px;
     margin-left: 10px;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
+    text-align: justify;
 }
 
 .about h2 {
@@ -53,8 +54,9 @@
 }
 
 .hr {
-    border-top: 3px solid #1565C0;
+    border-top: 3px solid;
     width: 10%;
+    border-image: linear-gradient(to right, #ffff, rgba(241, 85, 64, 1)) 1 0 0 0;
 }
 
 @media screen and (max-width: 930px) {

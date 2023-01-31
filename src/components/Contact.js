@@ -18,7 +18,7 @@ const Contact = () => {
                 <TextField sx={{width: 450}} id="filled-basic" label="Message" variant="filled" />
                 </div>
                 <div className={styles.button}>
-                <Button variant="outlined" sx={{mt: 1}}>Submit</Button>
+                <Button variant="outlined" style={{borderColor: '#f15540', color: '#f15540'}} sx={{mt: 1}}>Submit</Button>
                 </div>
                 </form>
             </div>

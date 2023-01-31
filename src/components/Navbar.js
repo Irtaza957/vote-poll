@@ -12,7 +12,7 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import HowToVoteIcon from '@material-ui/icons/HowToVote';
-
+import styles from '../styles/Home.module.css'
 const pages = ['Home', 'About', 'Learn-To-Vote', 'Contact'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
@@ -36,7 +36,7 @@ function ResponsiveAppBar() {
   };
 
   return (
-    <AppBar position="static">
+    <AppBar position="static" className={styles.navbar}>   
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <HowToVoteIcon fontSize='large' sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
@@ -52,7 +52,7 @@ function ResponsiveAppBar() {
               fontFamily: 'monospace',
               flexGrow: 1,
               fontWeight: 900,
-              fontSize: '25px',
+              fontSize: '30px',
               letterSpacing: '.2rem',
               color: 'inherit',
               textDecoration: 'none',
